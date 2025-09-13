@@ -1,5 +1,6 @@
 "use strict";
 // TODO(9):     Go through SPECIAL_CARACTERS for `word` and `bracket_word` and ensure they are correct.
+Object.defineProperty(exports, "__esModule", { value: true });
 function regexChars(characters) {
     const regexSpecialCharacters = [
         '$', '\\', '*', '(', ')', '{', '}', '[', ']', '|', '^'

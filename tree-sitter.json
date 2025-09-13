@@ -1,0 +1,25 @@
+{
+  "grammars": [
+    {
+      "name": "fish",
+      "camelcase": "Fish",
+      "scope": "source.fish",
+      "path": ".",
+      "file-types": [
+        "fish"
+      ],
+      "injection-regex": "^(fish)$",
+      "first-line-regex": "^#!.*\\bfish\\b"
+    }
+  ],
+  "metadata": {
+    "version": "3.6.0",
+    "license": "MIT",
+    "description": "A tree-sitter grammar for Fish Shell",
+    "authors": [
+      {
+        "name": "ram02z"
+      }
+    ]
+  }
+}
